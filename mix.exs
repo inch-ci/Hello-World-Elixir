@@ -25,6 +25,6 @@ defmodule InchTest.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:inch_ex, "~> 0.1"}]
+    [{:inch_ex, "~> 0.1", path: '../inch_ex'}]
   end
 end
