@@ -7,7 +7,7 @@ before_install:
 before_script:
   - export PATH=`pwd`/elixir/bin:$PATH
   - mix local.hex --force
-  - mix deps.get --only test
+  - mix deps.get
 script: mix test
 after_script:
   - mix hex.config username $HEX_USERNAME
