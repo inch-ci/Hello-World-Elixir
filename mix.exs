@@ -5,6 +5,7 @@ defmodule InchTest.Mixfile do
     [app: :inch_test,
      version: "0.0.1",
      elixir: "~> 1.0-dev",
+     docs: [main: "README", readme: true],
      deps: deps]
   end
 
