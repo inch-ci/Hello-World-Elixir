@@ -1,4 +1,4 @@
-Hello-World-Elixir
+Hello-World-Elixir [![Build Status](https://travis-ci.org/inch-ci/Hello-World-Elixir.svg?branch=master)](https://travis-ci.org/inch-ci/Hello-World-Elixir)
 ==================
 
 This is a test repo providing sample source code for Inch's Elixir implementation.
