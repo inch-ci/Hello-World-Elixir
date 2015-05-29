@@ -1,3 +1,4 @@
+sudo: false
 language: erlang
 otp_release:
   - 17.1
@@ -13,5 +14,5 @@ after_script:
   - mix deps.get --only docs
   - MIX_ENV=docs mix -h
   - MIX_ENV=docs mix inch.report
-  - git rev-parse --abbrev-ref HEAD
+  - git branch -a
   
