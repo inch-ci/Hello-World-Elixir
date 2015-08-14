@@ -28,6 +28,6 @@ defmodule InchTest.Mixfile do
   defp deps do
     [{:ex_doc, "~> 0.6"},
      {:earmark, ">= 0.0.0"},
-     {:inch_ex, "~> 0.2", only: :docs}]
+     {:inch_ex, "0.4.0-dev", only: :docs}]
   end
 end
